@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  border: 1px solid hsla(0,0%,91%,.5);
+}
+
+.header-tab {
+  position: relative;
+  padding: 20px;
+  font-size: 22px;
+}
+
+.header-tab.active:after {
+  position:absolute;
+  content: '';
+  left: 50%;
+  bottom: 10px;
+  width: 30%;
+  height: 3px;
+  font-size: 25px;
+  transform: translate(-50%,0);
+  background-color: #c60100;
+  border-radius: 1px;
+
+}
